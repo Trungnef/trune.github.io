@@ -90,7 +90,7 @@ const galaxyParameters = {
 };
 
 const defaultHeartImages = Array.from(
-  { length: 2 },
+  { length: 4 },
   (_, i) => `images/img${i + 1}.jpg`
 );
 
@@ -920,7 +920,7 @@ let galaxyAudio = null;
 
 function preloadGalaxyAudio() {
   const audioSources = [
-    "https://www.youtube.com/watch?v=lJzVc2uN5tc&list=RDlJzVc2uN5tc&start_radio=1",
+    "https://www.youtube.com/watch?v=OV3SqQREA2Y&list=RDOV3SqQREA2Y&start_radio=1&ab_channel=ARS",
   ];
 
   const randomIndex = Math.floor(Math.random() * audioSources.length);
