@@ -61,20 +61,18 @@
   <script src="https://www.youtube.com/iframe_api"></script>
   <script>
     let player;
-     const startTime = 227;
-    const endTime = 261;
+    const startTime = 0;
     window.onYouTubeIframeAPIReady = function() {
       player = new YT.Player('player', {
         height: '0',
         width: '0',
-        videoId: 'lJzVc2uN5tc',
+        videoId: '62TrmUvQGjo',
         playerVars: {
           autoplay: 0, // Để là 0, chúng ta sẽ điều khiển bằng API
           start: startTime,
-          end: endTime,
           controls: 0,
           loop: 1,
-          playlist: 'lJzVc2uN5tc'
+          playlist: '62TrmUvQGjo'
         },
         events: {
           onReady: (event) => {
