@@ -920,7 +920,7 @@ let galaxyAudio = null;
 
 function preloadGalaxyAudio() {
   const audioSources = [
-    "https://www.youtube.com/watch?v=62TrmUvQGjo&list=RD62TrmUvQGjo&start_radio=1&ab_channel=ARS",
+    "https://www.youtube.com/watch?v=62TrmUvQGjo&list=RD62TrmUvQGjo&start_radio=1",
   ];
 
   const randomIndex = Math.floor(Math.random() * audioSources.length);
